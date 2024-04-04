@@ -16,7 +16,7 @@ body {
   position: relative;
   background-color: #e2b4d6;
 }
-body:before {
+body::before {
   content: "";
   position: absolute;
   inset: 0;
