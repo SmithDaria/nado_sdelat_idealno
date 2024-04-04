@@ -16,12 +16,11 @@ video {
   letter-spacing: 0.035em;
   text-transform: uppercase;
   text-align: center;
+  max-width: 739px;
   padding-top: 60px;
-  display: flex;
-  flex-direction: column;
   z-index: 2;
 }
-.page__heading__text-last::after {
+.page__title::after {
   content: "*";
 }
 .page__title:hover::before {
